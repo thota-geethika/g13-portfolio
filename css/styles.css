@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 #navBar{
@@ -11,7 +11,8 @@
     padding:2% 1%;
     align-items: center;
     /* gap:3%; */
-    background-color: rgb(208, 230, 248);
+    background-color: black;
+    /* position: fixed; */
 }
 
 #navItems{
@@ -21,6 +22,7 @@
 
 .navItem{
     font-size: larger;
+    color: white;
     text-decoration: none;
     padding: 0.5% 2%;
     font-weight: bold;
@@ -28,5 +30,9 @@
 
 .navItem:hover{
     border: 1px transparent white;
-    background-color: white;
+    background-color: rgb(194, 191, 191);
+}
+
+#nameNavBar{
+    color: white;
 }
