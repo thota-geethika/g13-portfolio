@@ -6,24 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Special+Elite&display=swap" rel="stylesheet">
     <style>
-        *{
+        /* *{
             margin: 0px;
             padding: 0px;
-            /* box-sizing: border-box; */
-        }
+        } */
         body{
             background-image: url(images/bkimg1.jpg);
             background-size: cover;
             /* background-color: rgb(250, 237, 184); */
         }
+        .indexContent{
+            margin: 10% auto;
+        }
+
+        h1{
+            font-size: 300%;
+            font-weight: 600;
+            margin-bottom: 2%;
+            font-family: 'Special Elite', cursive;
+            /* font-family: 'Monoton', cursive; */
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 170%;
+            margin-bottom: 2%;
+        }
+
+        button{
+            font-size: 150%;
+            padding: 0.3% 2%;
+            margin-bottom: 2%;
+            border-radius: 50px;
+            background-color: rgb(173, 173, 173)
+        }
+
+        a :hover{
+            background-color: rgb(216, 215, 215);
+        }
+
     </style>
 </head>
 <body>
     <div id="navBar">
         <h2 id="nameNavBar">THOTA GEETHIKA SREE</h2>
         <div id="navItems">
-        <a href="home.html" class="navItem">Home</a>
+        <a href="index.html" class="navItem">Home</a>
         <a href="about.html" class="navItem">About</a>
         <a href="resume.html" class="navItem">Resume</a>
         <a href="projects.html" class="navItem">Projects</a>
@@ -34,6 +64,12 @@
         </div>
     </div>
 
+    <div style="text-align: center;" class="indexContent">
+        <h1>Geethika Sree</h1>
+        <p>Student | Developer</p>
+        <a href="about.html"><button>About me</button></a><br>
+        <a href="projects.html"><button>My projects</button></a>
+    </div>
 
 </body>
 </html>
